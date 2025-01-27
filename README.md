@@ -3,9 +3,8 @@
 ///path bu yerda link,collectionResourceREl esa qaytarib yuboradigan listning addresses o'rniga=>list deb qaytaradi
 @RepositoryRestResource(path = "address",collectionResourceRel = "list",excerptProjection = CustomAddress.class)
 public interface AddresRepo extends JpaRepository<Address, Integer> {
-}
-
-    </code>
+} 
+</code>
 <h2>default tarzda ReposityoryRestResourceda id qaytarilmaydi shuning uchun biz custom projection yozamiz</h2>
  
 <code>
@@ -15,7 +14,6 @@ public interface CustomAddress {
     String getStreet();
     String getCity();
 }
-
-    </code>
+</code>
   
 
