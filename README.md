@@ -14,12 +14,14 @@ public interface AddresRepo extends JpaRepository<Address, Integer> {
 <h2>default tarzda ReposityoryRestResourceda id qaytarilmaydi shuning uchun biz custom projection yozamiz</h2>
 <pre>
 <code>
+    <pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px;">
 @Projection(types = Address.class)
 public interface CustomAddress {
     Integer getId();
     String getStreet();
     String getCity();
 }
+        </pre>
 </code>
 </pre>
 </body>
