@@ -3,7 +3,7 @@
 <h2>Bu loyihada controller va servicelarsiz qanday qilib default methodlarni yaratish o'rgatiladi birinchi bo'lib repostoryni bunday o'zgartiramiz </h2>
 <pre>
 <code>
-    <font size="4">
+    <font size="2">
         ///path bu yerda link,collectionResourceREl esa qaytarib yuboradigan listning addresses o'rniga=>list deb qaytaradi
 @RepositoryRestResource(path = "address",collectionResourceRel = "list",excerptProjection = CustomAddress.class)
 public interface AddresRepo extends JpaRepository<Address, Integer> {
