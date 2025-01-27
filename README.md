@@ -1,21 +1,4 @@
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Display Example</title>
-  <style>
-    pre {
-      background-color: #f4f4f4;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      padding: 10px;
-      overflow-x: auto;
-      font-family: "Courier New", Courier, monospace;
-    }
-    code {
-      color: #d14;
-    }
-  </style>
-</head>
+
 <body>
 <h2>Bu loyihada controller va servicelarsiz qanday qilib default methodlarni yaratish o'rgatiladi birinchi bo'lib repostoryni bunday o'zgartiramiz </h2>
 <pre>
